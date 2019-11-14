@@ -23,10 +23,12 @@
         android:text="User Registration"
         android:textSize="30dp"
         android:gravity="center"
+
     />
     </TableRow>
 
     <TableRow
+        android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center">
@@ -40,11 +42,14 @@
     <EditText
         android:id="@+id/etName"
        android:layout_width="250dp"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:background="@drawable/design"
+        />
 
     </TableRow>
 
     <TableRow
+        android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center">
@@ -59,11 +64,14 @@
             android:id="@+id/etBirth"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:focusable="false"/>
+            android:focusable="false"
+            android:background="@drawable/design"
+            />
 
     </TableRow>
 
     <TableRow
+        android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center">
@@ -106,6 +114,7 @@
     </TableRow>
 
     <TableRow
+        android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center">
@@ -121,11 +130,13 @@
             android:id="@+id/spCountry"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
+            android:background="@drawable/design"
             />
 
     </TableRow>
 
     <TableRow
+        android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center">
@@ -139,11 +150,14 @@
         <EditText
             android:id="@+id/etPhone"
             android:layout_width="250dp"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:background="@drawable/design"
+            />
 
     </TableRow>
 
     <TableRow
+        android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center">
@@ -157,11 +171,14 @@
         <EditText
             android:id="@+id/etEmail"
             android:layout_width="250dp"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:background="@drawable/design"
+            />
 
     </TableRow>
 
     <TableRow
+        android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center">
@@ -175,11 +192,14 @@
         <AutoCompleteTextView
             android:id="@+id/etImage"
             android:layout_width="250dp"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:background="@drawable/design"
+            />
 
     </TableRow>
 
     <TableRow
+        android:layout_marginTop="10dp"
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:gravity="center">
@@ -195,6 +215,7 @@
     </TableRow>
 
     <TableRow
+        android:layout_marginTop="10dp"
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:gravity="center">
